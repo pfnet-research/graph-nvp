@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python train_model.py -f zinc250k_relgcn_kekulized_ggnp.npz --data_name zinc250k --num_atoms 38 -b 32 -x 30 --gpu 1 --num_node_coupling 38  --num_channel_coupling 38 --num_node_masks 38 --num_channel_masks 38 --apply_batch_norm True --load_params 0 --save_epochs 1 --debug yes --save_dir output --learn_dist yes --additive_transformations

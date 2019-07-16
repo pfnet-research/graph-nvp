@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+mpiexec -n 4 python train_model_chainermn.py -f qm9_relgcn_kekulized_ggnp.npz -b 256 -x 60 --gpu 1 --num_node_coupling 36  --num_channel_coupling 27 --num_node_masks 9 --num_channel_masks 9 --node_mask_size 5 --apply_batch_norm True --load_params 0 --save_epochs 10 --debug yes --save_dir output --learn_dist yes --additive_transformations

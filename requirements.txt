@@ -1,0 +1,6 @@
+numpy==1.16.2
+chainer==5.2.0
+chainer-chemistry==0.5.0
+tabulate
+#rdkit
+#cupy
